@@ -1,0 +1,5 @@
+I have no idea what syntax error I have here.
+
+counts = pulls.groupby(pulls['date'].dt.month).agg({'pid' : 'count'}).reset_index()
+
+pulls is a dataframe.and I and i need the counts from by pid (user ID's) by month.  Is that what I am getting?
